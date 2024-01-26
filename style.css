@@ -1,0 +1,19 @@
+
+header{
+            background-image: url(bg.jpg);
+            height: 210px;
+    }
+    td{
+        padding-left: 80px;
+        padding-left: 80px;
+        align-self: center;
+    }
+
+body{
+    background-image: url(bg3.jpg);
+    height: 210px;
+}
+
+#logo{
+    border-radius: 50%;
+}
