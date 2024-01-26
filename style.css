@@ -9,6 +9,20 @@ header{
         align-self: center;
     }
 
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+ }
+
 body{
     background-image: url(bg3.jpg);
     height: 210px;
