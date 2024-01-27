@@ -5,15 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Online Store (practice codes)</title>
     <link rel="stylesheet" href="style.css">
+<head>
 </head>
-
-</style>
 <body>
-
-    </div>
     <header>
-        <br>
-        <h1 style="text-align: center;">Jumper Clothes Online Store</h1>
+        <h1 style="text-align: center;">Sewing Products Online Store</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="#about">About Us</a>
@@ -21,53 +17,190 @@
             <a href="#promos">Promos</a>
             <a href="#contacts">Contact Us</a>
         </nav>
-    </header>
+    </header>        
         <hr>
 
     <main>
-        
 
         <article id="about">
             <h2 style="text-align: center;">About Us</h2>
             <table>
                 <td>
-                    <h3>Jumper Clothes</h3>
+                    <h3>Sewing Products</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque veritatis beatae harum aut et quia consectetur soluta rerum, maxime esse at facilis doloremque nemo sequi. Quidem unde quam perferendis quaerat!</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque veritatis beatae harum aut et quia consectetur soluta rerum, maxime esse at facilis doloremque nemo sequi. Quidem unde quam perferendis quaerat!</p>
                 </td>
                 <td>
                     <figure style="text-align: center;">
-                        <img src="logo.jpg" alt="Jumper Icon" id="logo">
-                        <figcaption>Logo of Jumper Clothes</figcaption>
+                        <img src="logo.jpg" alt="Sewing Icon" id="logo">
+                        <figcaption>Logo of Sewing Products</figcaption>
                     </figure>
                 </td>
             </table>
         </article>
         <hr>
         <br>
-        <article>
+        <article id="products">
+            <form>
             <table>
-                <td>
-                    <h3>Men's</h3>
-                </td>
-                <td>
-                    <h3>Women's</h3>
-                </td>
-            </table>
+                <h2 style="text-align: center;">Available Products</h2>
+        <form action="action_page.php" method="GET">
+                <table>
+                    <td>
+                        
+                            <figure>
+                                <img src="prod1.jpg" alt="tread image" height="150" id="prodimg">
+                                <figcaption>Tread</figcaption>
+                            </figure>
+                        
+                        
+                            <figure>
+                                <img src="prod2.jpg" alt="needle image" height="150" id="prodimg">
+                                <figcaption>Needle</figcaption>
+                            </figure>
+                        
+                        
+                            <figure>
+                                <img src="prod3.jpg" alt="scissor image" height="150" id="prodimg">
+                                <figcaption>Scissor</figcaption>
+                            </figure>
+                        
+                        
+                            <figure>
+                                <img src="prod4.jpg" alt="sewing machine image" height="150" id="prodimg">
+                                <figcaption>Sewing Machine</figcaption>
+                            </figure>
+                        
+                    </td>
+                    <td>
+                        <form>
+                            <div>
+                                <label for="prod1" >Quantity:</label><br>
+                                <input type="number" id="prod1" name="prod1">
+                                <label for="color" >Color:</label>
+                                <select id="color" name="color">
+                                    <option value= "white">White</option>
+                                    <option value= "white">Black</option>
+                                    <option value= "white">Brown</option>
+                                    <option value= "white">Gray</option>
+                                </select>
+                            </div>
+                            
+                            <br><br>
+                        
+                            <div>
+                                <label for="prod2" >Quantity:</label><br>
+                                <input type="number" id="prod2" name="prod2">
+                                <label>Size:</label>
+                                <select id="color" name="color">
+                                    <option value= "white">Small</option>
+                                    <option value= "white">Medium</option>
+                                    <option value= "white">Large</option>
+                                </select>
+                            </div>
+                            
+                            <br><br>
+                            
+                            <div>
+                                <label for="prod3" >Quantity:</label><br>
+                                <input type="number" id="prod3" name="prod3">
+                                <label for="color" >Color:</label>
+                                <select id="color" name="color">
+                                    <option value= "white">White</option>
+                                    <option value= "white">Black</option>
+                                    <option value= "white">Brown</option>
+                                    <option value= "white">Gray</option>
+                                </select>
+                            </div>
+                            
+                            <br><br>
+                            
+                            <div>
+                                <label for="prod4" >Quantity:</label><br>
+                                <input type="number" id="prod4" name="prod4">
+                                <label for="color" >Color:</label>
+                                <select id="color" name="color">
+                                    <option value= "white">White</option>
+                                    <option value= "white">Black</option>
+                                    <option value= "white">Brown</option>
+                                    <option value= "white">Gray</option>
+                                </select>
+                            </div>
+                    </td>
+                </table>
+            <div>
+                <input type="submit" value="Order" id="order">
+            </div>
+        </form>
+            <hr>
         </article>
         <br>
-        <article>
+        <article id="promos">
+            <h2 style="text-align: center;">Exciting Promos</h2>
+            <h4>
+                Buy 4 of these, get 2 of these items!
+            </h4>
+            <figure>
+                                <img src="prod1.jpg" alt="tread image" height="150" id="prodimg">
+                                <figcaption>Tread</figcaption>
+                            </figure>
+                        
+                        
+                            <figure>
+                                <img src="prod2.jpg" alt="needle image" height="150" id="prodimg">
+                                <figcaption>Needle</figcaption>
+                            </figure>
+                        
+                        
+                            <figure>
+                                <img src="prod3.jpg" alt="scissor image" height="150" id="prodimg">
+                                <figcaption>Scissor</figcaption>
+                            </figure>
+                            <a href="#products">Order Now</a>
+               <h2 style="text-align: center;">Exciting Freebie</h2>
+               <h4>Buy Sewing Machine, get:</h4>
+               <h4>4 treads,</h4>
+                 <figure>
+                                <img src="prod1.jpg" alt="tread image" height="150" id="prodimg">
+                                <figcaption>Tread</figcaption>
+                            </figure>
+               <h4>3 needles, and</h4>
+                            <figure>
+                                <img src="prod2.jpg" alt="needle image" height="150" id="prodimg">
+                                <figcaption>Needle</figcaption>
+                            </figure>
+               <h4>2 scissors!</h4>
+                            <figure>
+                                <img src="prod3.jpg" alt="scissor image" height="150" id="prodimg">
+                                <figcaption>Scissor</figcaption>
+                            </figure>
+                            <a href="#products">Order Now</a>
 
+            <hr>
         </article>
         <br>
-        <article>
-
-        </article>
-        <br>
-
     </main>
 
     <footer>
-
+        <article id="contacts">
+            <h2 style="text-align: center;">Contact Us at:</h2>
+            <label>Facebook:</label>
+            <a href="https://www.facebook.com/profile.php?id=61553762344931&mibextid=ZbWKwL">https://www.facebook.com/profile.php?id=61553762344931&mibextid=ZbWKwL</a>
+            <br>
+            <label>Email</label>
+            <p>jef_labadan@smccnasipit.edu.ph</p>
+            <hr>
+            <br><br><br><br>
+            <p>
+                Created by Jef M. Labadan
+                <br><br>
+                HANDS-ON EXERCISE NO. 4 - (HTML SEMANTIC - MY ONLINE STORE)
+                <br><br>
+                Subject:<br>
+                WEB SYSTEMS AND TECHNOLOGIES
+            </p>
+            <a href="index.html">Back to top</a>
+            <hr>
     </footer>
 
 </body>
