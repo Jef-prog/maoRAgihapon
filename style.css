@@ -2,16 +2,26 @@
 header{
             background-image: url(bg.jpg);
             height: 210px;
-    }
-    td{
-        padding-left: 80px;
-        padding-left: 80px;
-        align-self: center;
-    }
-
+            }
 nav{
-    display: flex;
-    justify-content: center;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    padding: 6px;
+}
+
+
 }
 nav a{
     float: left;
@@ -19,8 +29,13 @@ nav a{
 
 a {
   display: block;
+  border-radius: 35%;
   padding: 8px;
-  background-color: #dddddd;
+  background-color: gray;
+  /*background-image: url(prod4.jpeg);*/
+  opacity: 70%;
+  height: 35px;
+  width: 50px;
  }
 
 body{
@@ -30,4 +45,24 @@ body{
 
 #logo{
     border-radius: 50%;
+}
+
+#prodimg{
+    border-radius: 35%;
+}
+
+#table2{
+    text-align: center;
+}
+
+#quaninput{
+    width: 30%;
+}
+
+form{
+    text-align: center;
+}
+#order{
+    width: 50%;
+    height: 20%;
 }
