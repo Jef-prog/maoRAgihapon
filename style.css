@@ -9,6 +9,7 @@
 body{
     background-image: url(bg3.jpg);
     background-size: cover;
+    opacity: 60%;
 }
 
 *::selection{
@@ -106,7 +107,7 @@ form{
 .content-1{
     display: flex;
     justify-content: center;
-    background: lightgray;
+    background: gray;
     align-items: center;
     
     padding: 5px;
@@ -117,7 +118,7 @@ form{
     height: 400px;
     margin: 2.5px 2.5px;
     
-    font-color: white;
+    font: white;
     
 }
 
