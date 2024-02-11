@@ -1,4 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sixing: border-box;
+    
+}
 
+/*bg image and selection*/
+body{
+    background-image: url(bg3.jpg);
+    background-size: cover;
+}
+
+*::selection{
+    color: white;
+    background-color: brown;
+}
+
+/*basic css*/
 header{
             background-image: url(bg.jpg);
             height: 210px;
@@ -21,38 +39,34 @@ nav li a{
     padding: 6px;
 }
 
-
-}
-nav a{
-    float: left;
-}
-
-a {
+nav a {    
   display: block;
   border-radius: 35%;
   padding: 8px;
   background-color: gray;
   /*background-image: url(prod4.jpeg);*/
-  opacity: 70%;
-  height: 35px;
+  opacity: 80%;
+  height: 50px;
   width: 50px;
  }
 
-body{
-    background-image: url(bg3.jpg);
-    height: 210px;
+
+.about{
+    
+    flex-wrap: wrap;
+    
+    /*background-texture: ;*/
+    width: 50%;
+    border-radius: 15px;
 }
 
 #logo{
-    border-radius: 50%;
-}
-
-#prodimg{
-    border-radius: 35%;
-}
-
-#table2{
-    text-align: center;
+    display: flex;
+    border-radius: 20%;
+    justify-content: center;
+    width: 50%;
+    /*Box model Functions*/
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,2);
 }
 
 #quaninput{
@@ -65,4 +79,156 @@ form{
 #order{
     width: 50%;
     height: 20%;
+}
+
+/*css card image, variables*/
+#prodimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#promos .container-2 .content-2 img{
+    height: 50%;
+    width: 50%;
+    border-radius: 5px;
+}
+
+/*css cards*/
+
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-1{
+    display: flex;
+    justify-content: center;
+    background: lightgray;
+    align-items: center;
+    
+    padding: 5px;
+}
+
+.content-1 .about{
+    flex: 1;
+    height: 400px;
+    margin: 2.5px 2.5px;
+    
+    font-color: white;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.content .card{
+    flex: 1;
+    background: lightblue;
+    right: margin;: 10px 10px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,2);
+    border-radius: 10px;
+    width: 20%;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-2{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.content2 .promocard{
+    flex: 1;
+    background: lightblue;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,2);
+    border-radius: 10px;
+}
+
+/* media queries */
+@media (max-width: 435px){
+    .content{
+        
+    }
+    .content .card{
+        height: 200px;
+        width: 95px;
+        margin: 8px;
+    }
+     
+    .content .card h3{
+        font-size: 100%;
+    }
+    
+    #prodimg{
+        height: 45%;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 375px){
+    .content{
+        
+    }
+    .content .card{
+        height: 195px;
+        width: 80px;
+        margin: 6px;
+    }
+    
+    .content .card h3{
+        font-size: 100%;
+    }
+    
+    #prodimg{
+        height: 40%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px){
+    .content{
+        
+    }
+    .content .card{
+        height: 180px;
+        width: 70px;
+        margin: 5px;
+    }
+    
+    .content .card h3{
+        font-size: 100%;
+    }
+    
+    #prodimg{
+        height: 40%;
+        width: 100%;
+    }
 }
