@@ -55,7 +55,7 @@ nav a {
 .about{
     
     flex-wrap: wrap;
-    
+    color: white;
     /*background-texture: ;*/
     width: 50%;
     border-radius: 15px;
