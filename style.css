@@ -65,7 +65,7 @@ nav a {
     display: flex;
     border-radius: 20%;
     justify-content: center;
-    width: 50%;
+    height: 200px;
     /*Box model Functions*/
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,2);
 }
