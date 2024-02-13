@@ -24,6 +24,7 @@ header{
             }
 nav{
     text-align: center;
+    item: center;
 }
 nav ul{
     list-style-type: none;
